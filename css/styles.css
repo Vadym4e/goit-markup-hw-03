@@ -3,9 +3,35 @@
 --title-text-color: #212121;
 --paragraph-text-color: #757575;
 }
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+button {
+  cursor: pointer;
+}
+address {
+  font-style: normal;
+}
+img {
+  display: block;
+}
+
 body {
   font-family: roboto, sans-serif;
 }
+/* ---------------------HEADER-------------------------------------- */
 .logo {
   font-family: 'Raleway';
   font-style: normal;
@@ -42,6 +68,7 @@ letter-spacing: 0.02em;
 .connection-link:hover, .connection-link:focus {
   color: var(--hover-color);
 }
+/*--------------------------------- MAIN------------------------------ */
 .hero {
   background-color: #2F303A;
 }
@@ -187,7 +214,9 @@ color: var(--paragraph-text-color);
 }
 .projects-link {
   text-decoration: none;
-} .footer-address:hover, .footer-address:focus {
+}
+/* -------------------------FOOTER--------------------------------------  */
+.footer-address:hover, .footer-address:focus {
   color: var(--hover-color);
 }
 .footer-connection:hover, .footer-connection:focus {
