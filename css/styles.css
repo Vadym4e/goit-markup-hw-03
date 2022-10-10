@@ -263,7 +263,7 @@ header {
 .address {
   margin-top: 20px;
 }
-.address-list-item:not(last-child) {
+.address-list-item:not(:last-child) {
   margin-bottom: 9px;
 }
 .footer-address:hover,
