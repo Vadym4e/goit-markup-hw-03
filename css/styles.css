@@ -39,8 +39,8 @@ body {
 }
 /* ---------------------HEADER-------------------------------------- */
 header {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
 }
 .header-container {
@@ -130,7 +130,7 @@ header {
   letter-spacing: 0.06em;
   color: #ffffff;
   cursor: pointer;
-  margin: 30px auto;
+  margin: 30px auto 0;
   display: block;
   padding: 10px 32px;
 }
@@ -142,6 +142,9 @@ header {
 .feature-list {
   display: flex;
   gap: 30px;
+}
+.feature-list-item {
+  width: 270px;
 }
 .feature-title {
   font-weight: 700;
@@ -276,8 +279,7 @@ header {
 }
 /* -------------------------------FILTRES(PORTFOLIO)------------------------------------- */
 .filtres {
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .filtres {
   display: flex;
@@ -310,12 +312,14 @@ header {
   border-radius: 4px;
 }
 /* ----------------------------------PROJECTS(PORTFOLIO)--------------------------------- */
-.projects-list {
+.projects {
+  padding-top: 94px;
   padding-bottom: 94px;
+}
+.projects-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  padding-bottom: 94px;
 }
 .projects-list-item {
   background-color: #fff;
